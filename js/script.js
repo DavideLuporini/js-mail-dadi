@@ -46,3 +46,11 @@ let computerNumber = Math.floor((Math.random() * maxNumber) + minNumber);
 
 console.log(userNumber);
 console.log(computerNumber);
+
+if (userNumber > computerNumber) {
+    console.log('Hai vinto!');
+} else if (userNumber < computerNumber) {
+    console.log('Ha vinto il tuo avversario!');
+} else if (userNumber === computerNumber) {
+    console.log('Pareggio!');
+}
